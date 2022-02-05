@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "remotion preview src/index.js",
-    "build": "remotion render src/index.js main out.mp4 --log verbose --props='{\n  "duration": 30,\n  "repoName": "logseq",\n  "repoOrg": "logseq",\n  "starCount": 10000\n}'"
+    "build": "remotion render src/index.js main out.mp4 --log verbose --props='{\"duration\": 30, \"repoName\": \"logseq\",  \"repoOrg\": \"logseq\", \"starCount\": 10000}'"
   },
   "license": "UNLICENSED",
   "dependencies": {
