@@ -16,7 +16,7 @@ const defaultProps = {
   starCount: 100,
   duration: 15,
 };
-const inputProps = { ...defaultProps, ...getInputProps() };
+const inputProps = {duration: 30, repoName: 'logseq', repoOrg: 'logseq', starCount: 10000};
 
 function RemotionVideo() {
   const [handle] = React.useState(() => delayRender());
